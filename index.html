@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi portafolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark border-bottom border-dark sticky-top" data-bs-theme="dark" id="menu">
+        <div class="container " >
+            <a class="navbar-brand m-0 h1 text-uppercase fw-semibold" href="#">SnowdenDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto text-center">
+                    <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+                    <a class="nav-link" href="#">Proyectos</a>
+                    <a class="nav-link" href="#">Servicios</a>
+                    <a class="nav-link" href="#">Habilidades</a>
+                    <a class="nav-link disabled" aria-disabled="true">Social</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row ">
+            <div class="col-12">
+                <img src="avt.png" class="rounded mx-auto d-block" alt="..." style="width: 140px;">
+            </div>
+            <div class="col-12">
+                <p class="text-center fs-1 fw-semibold text-light">- Dayron Alvarez -</p>
+            </div>
+            <div class="col-12">
+                <p class="text-center fs-4 fw-normal text-light">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Excepturi, magnam doloribus. Aliquid perferendis tenetur omnis fugiat dignissimos nisi rem
+                    quibusdam! Laborum vero libero, placeat id vitae quae dolor maiores! Modi.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row ">
+            <p class="text-center fs-2 fw-medium text-light">- Proyectos -</p>
+        </div>
+        <div class="row  gy-3">
+            <hr class="separator">
+            <div class="col-12">
+                <div class="card text-center border-secondary" data-bs-theme="dark">
+                    <div class="card-header border-secondary ">
+                        <ul class="nav nav-pills card-header-pills d-flex justify-content-around" id="myTab"
+                            role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="GameVerse-tab" data-bs-toggle="tab" href="#GameVerse"
+                                    role="tab" aria-controls="GameVerse" aria-selected="true">GameVerse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="Mlauncher-tab" data-bs-toggle="tab" href="#Mlauncher" role="tab"
+                                    aria-controls="Mlauncher" aria-selected="false">Mlauncher</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="WFP-AC-tab" data-bs-toggle="tab" href="#WFP-AC" role="tab"
+                                    aria-controls="WFP-AC" aria-selected="false">WFP-AC</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active " id="GameVerse" role="tabpanel"
+                            aria-labelledby="GameVerse-tab">
+                            <div class="card-body px-5">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Reiciendis saepe aut iure expedita excepturi voluptates, harum temporibus obcaecati
+                                    sapiente odit totam modi adipisci. Aliquid qui quidem corporis reprehenderit, optio
+                                    et.</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around overflow-hidden">
+                                <small class="text-body-secondary">Csharp</small>
+                                <small class="text-body-secondary">C++</small>
+                                <small class="text-body-secondary">Xaml</small>
+                                <small class="text-body-secondary">Wpf</small>
+                                <small class="text-body-secondary">Asp.Net</small>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Mlauncher" role="tabpanel" aria-labelledby="Mlauncher-tab">
+                            <div class="card-body px-5">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+                                    aut aspernatur expedita rerum obcaecati ipsum. Placeat ad similique velit dolor
+                                    quasi quam labore fugiat? Deserunt rerum non quam nostrum totam.</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around overflow-hidden">
+                                <small class="text-body-secondary">C#</small>
+                                <small class="text-body-secondary">WinForm</small>
+                                <small class="text-body-secondary">MClib</small>
+                                <small class="text-body-secondary">Asp.Net</small>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="WFP-AC" role="tabpanel" aria-labelledby="WFP-AC-tab">
+                            <div class="card-body px-5">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                                    quisquam nihil temporibus ea ex tempore, quos quis nesciunt beatae accusamus. Saepe
+                                    nam necessitatibus maiores cupiditate autem amet possimus omnis at!</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around overflow-hidden">
+                                <small class="text-body-secondary">C++</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row ">
+            <p class="col-12 text-center fs-2 fw-medium text-light">- Servicios -</p>
+            
+        </div>
+        <div class="row gy-3">
+            <hr class="separator">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 "> <!-- bg-danger -->
+                <div class="card text-bg-dark border-secondary h-100">
+                    <div class="card-header border-secondary">Desarrollo Backend</div>
+                    <div class="card-body">
+                        <p class="card-text">Diseño y desarrollo de APIs seguras y escalables, optimización de
+                            rendimiento en servidores y conexión con bases de datos modernas para garantizar la
+                            eficiencia y confiabilidad de tu aplicación.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 "> <!-- bg-primary -->
+                <div class="card text-bg-dark border-secondary h-100">
+                    <div class="card-header border-secondary ">Desarrollo Frontend</div>
+                    <div class="card-body">
+                        <p class="card-text">Creación de interfaces modernas, adaptativas y responsivas. Experiencias
+                            interactivas con enfoque en UX/UI usando tecnologías como Html, Css y Js.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3  ">
+                <div class="card text-bg-dark border-secondary h-100">
+                    <div class="card-header border-secondary">Soluciones de Software</div>
+                    <div class="card-body">
+                        <p class="card-text">Desarrollo de software a medida que se adapta a tus necesidades
+                            específicas. Automatización de procesos, optimización de flujos de trabajo y soporte técnico
+                            confiable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 "> <!-- bg-warning  -->
+                <div class="card text-bg-dark border-secondary h-100">
+                    <div class="card-header border-secondary">Consultoría</div>
+                    <div class="card-body">
+                        <p class="card-text">Análisis y mejora de sistemas existentes, solución de problemas técnicos y
+                            mantenimiento continuo para garantizar que tus aplicaciones funcionen de forma óptima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row "> <!-- d-flex justify-content-center -->
+            <p class="col-12 text-center fs-2 fw-medium text-light">- Habilidades -</p>
+            
+        </div>
+        <div class="row gy-3">
+            <hr class="separator">
+            <div class="col">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        C#
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        C++
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        WPF
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        ASP.NET
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        WINFORM
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        HTML
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        CSS
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card text-bg-dark border-secondary overflow-hidden">
+                    <div class="card-body d-flex align-items-center justify-content-center" style="height: 53px">
+                        <i class="bi bi-code-slash fs-4 me-2"></i>
+                        BOOTSTRAP
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container text-white pt-4"> <!-- bg-dark -->
+        <div class="row">
+            <hr class="separator">
+            <div class="col-6 bg-dange">
+                <div class="d-flex flex-column flex-sm-row align-items-center justify-content-around">
+                    <button type="button"
+                        class="btn btn-outline-dark text-light border border-0 d-flex align-items-center justify-content-start mb-2 mb-sm-0">
+                        <i class="bi bi-youtube fs-3 me-2"></i>
+                        Youtube
+                    </button>
+                    <button type="button" 
+                        class="btn btn-outline-dark text-light border border-0 d-flex align-items-center justify-content-start">
+                        <i class="bi bi-whatsapp fs-3 me-2"></i>
+                        Whatsapp
+                    </button>
+                </div>
+            </div>
+            <div class="col-6 bg-primar">
+                <div class="d-flex flex-column flex-sm-row align-items-center justify-content-around">
+                    <button type="button" 
+                        class="btn btn-outline-dark text-light border border-0 d-flex align-items-center justify-content-start mb-2 mb-sm-0">
+                        <i class="bi bi-github fs-3 me-2"></i>
+                        GitHub
+                    </button>
+                    <button type="button" 
+                        class="btn btn-outline-dark text-light border border-0 d-flex align-items-center justify-content-start">
+                        <i class="bi bi-facebook fs-3 me-2"></i>
+                        Facebook
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <p>© 2022 - 2025 SnowdenDev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
