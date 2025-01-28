@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: rgb(20, 20, 20);
     font-family: "Poppins", serif;
@@ -14,7 +19,9 @@ body {
 }
 
 .separator {
-    height: 3px; /* Ajusta el grosor de la línea */
-    border: none; /* Elimina cualquier borde predeterminado */
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255,255,255), rgba(0, 0, 0, 0));
+    height: 3px;
+    /* Ajusta el grosor de la línea */
+    border: none;
+    /* Elimina cualquier borde predeterminado */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
 }
