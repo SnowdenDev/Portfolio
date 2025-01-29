@@ -17,6 +17,11 @@ body {
     border-color: transparent;
 }
 
+#avatar
+{
+    mask-image: linear-gradient(black 80%,transparent);
+}
+
 .separator {
     height: 3px;
     /* Ajusta el grosor de la línea */
