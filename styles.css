@@ -32,4 +32,6 @@ body {
 {
     background-color: rgba(33, 37, 41, 0.5) !important;
     backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+    z-index: 10; 
 }
