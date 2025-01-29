@@ -24,8 +24,6 @@ body {
 
 .separator {
     height: 3px;
-    /* Ajusta el grosor de la línea */
     border: none;
-    /* Elimina cualquier borde predeterminado */
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
 }
