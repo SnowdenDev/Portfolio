@@ -17,9 +17,9 @@ body {
     border-color: transparent;
 }
 
-#avatar
+#avatar-img
 {
-    mask-image: linear-gradient(black 80%,transparent);
+    mask-image: linear-gradient(black 70%,transparent);
 }
 
 .separator {
